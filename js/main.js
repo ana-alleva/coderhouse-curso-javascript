@@ -32,9 +32,9 @@ function calcularDescuento(total) {
   return precioFinal;
 }
 
-function mostrarResultado(resultado) {
+const mostrarResultado = (resultado) => {
   alert("El total de la compra es: $" + resultado);
-}
+};
 
 let totalCompra = 0;
 let continuar = "si";
